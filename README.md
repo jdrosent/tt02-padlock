@@ -3,7 +3,7 @@
 ### Wokwi
 https://wokwi.com/projects/347417602591556180
 
-Set a code for your precious safe!
+## Customizable Padlock: Set a code for your precious safe!
 
 **Controls**
 * Switch 2 is used to reset the safe. 

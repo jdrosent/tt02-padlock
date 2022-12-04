@@ -1,34 +1,33 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg)
 
-# What is Tiny Tapeout?
+### Wokwi
+https://wokwi.com/projects/347417602591556180
 
-TinyTapeout is an educational project that aims to make it easier and cheaper than ever to get your digital designs manufactured on a real chip!
+Set a code for your precious safe!
 
-Go to https://tinytapeout.com for instructions!
+**Controls**
+* Switch 2 is used to reset the safe. 
+* Switch 8 is used to set your code (on = set, off = locked)
+* Switches 3 to 5 are used to set the code.
+* The push button is used to enter your code.
 
-## How to change the Wokwi project
+| SW      | Function| 
+|---------|---------|
+| 1       | N/A     | 
+| 2       | Reset   | 
+| 3       | Code 0  |
+| 4       | Code 1  | 
+| 5       | Code 2  | 
+| 6       | N/A     |
+| 7       | N/A     | 
+| 8       | Set Code| 
 
-Edit the [info.yaml](info.yaml) and change the wokwi_id to match your project.
+### To begin
 
-## How to enable the GitHub actions to build the ASIC files
+Press the green button in the top left of the simulation pane. 
 
-Please see the instructions for:
+Set your desired code using Switches 3 to 5. Once you've done so, toggle Switch 8 to on then back off--the safe is now set!
 
-* [Enabling GitHub Actions](https://tinytapeout.com/faq/#when-i-commit-my-change-the-gds-action-isnt-running)
-* [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
+Turn on Switch 2, and press the push button. The red LED labeled "Locked" should turn on and the seven segment display should show "L" (for locked).
 
-## How does it work?
-
-When you edit the info.yaml to choose a different ID, the [GitHub Action](.github/workflows/gds.yaml) will fetch the digital netlist of your design from Wokwi.
-
-After that, the action uses the open source ASIC tool called [OpenLane](https://www.zerotoasiccourse.com/terminology/openlane/) to build the files needed to fabricate an ASIC.
-
-## Resources
-
-* [FAQ](https://tinytapeout.com/faq/)
-* [Digital design lessons](https://tinytapeout.com/digital_design/)
-* [Join the community](https://discord.gg/rPK2nSjxy8)
-
-## What next?
-
-* Share your GDS on Twitter, tag it [#tinytapeout](https://twitter.com/hashtag/tinytapeout?src=hashtag_click) and [link me](https://twitter.com/matthewvenn)!
+Next turn off Switch 2 to begin entering codes.  
